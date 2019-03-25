@@ -1,0 +1,29 @@
+.places {
+    display:flex;
+    justify-content: space-between;
+}
+.name{
+    margin:20px; color:gray;
+    font-size: 18px;
+    
+}
+   
+.tabs { 
+    flex-direction: column; 
+    align-content: center;
+    justify-content: center;
+    display: none;
+}
+
+.navigate:hover .tabs {
+    display: flex !important;
+    
+
+}
+
+
+.tab {
+    margin:10px; 
+    color:gray;
+    font-size: 18px;
+}
